@@ -7,9 +7,9 @@ export const metadata: Metadata = {
 
 export default function About() {
   return (
-    <div>
+    <main>
       <h1>About us</h1>
       <p>We are a social media company that wants to bring people together!</p>
-    </div>
+    </main>
   )
 }
