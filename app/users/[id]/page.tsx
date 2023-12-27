@@ -19,7 +19,7 @@ export default async function UserProfile({ params }: UserProfileProps) {
   const { name, bio, image } = user ?? {}
 
   return (
-    <div>
+    <main>
       <h1>{name}</h1>
 
       <Image
@@ -31,6 +31,6 @@ export default async function UserProfile({ params }: UserProfileProps) {
 
       <h3>Bio</h3>
       <p>{bio}</p>
-    </div>
+    </main>
   )
 }
